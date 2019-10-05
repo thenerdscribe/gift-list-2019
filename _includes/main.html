@@ -1,0 +1,21 @@
+---
+title: Gift List
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <h1>
+      <a href="{{ link }}">{{ title }}</a>
+    </h1>
+    <div class="description">
+      {{ content | safe }}
+    </div>
+    <p>You can find it <a href="{{ link }}">here</a> for ${{ cost }}</p>
+    <p><a href="/">Go back</a></p>
+  </body>
+</html>

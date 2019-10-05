@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ryan's Gift List</title>
+  </head>
+  <body>
+    <h1>Gift List</h1>
+    <ul>
+      {% for gift in collections.gifts %}
+      <li>
+        <a href="{{ gift.data.page.url }}"
+          >{{ gift.data.title }}: ${{ gift.data.cost }}</a
+        >
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
