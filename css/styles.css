@@ -1,0 +1,42 @@
+body {
+  color: #eee;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.7;
+  background-color: #222;
+  font-size: 20px;
+}
+
+a {
+  color: mediumorchid;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+h1,
+strong {
+  font-weight: 900;
+  font-style: italic;
+  color: deeppink;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.container {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 2vw 2vh;
+}
+
+.price {
+  color: deeppink;
+}

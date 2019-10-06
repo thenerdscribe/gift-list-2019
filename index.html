@@ -1,19 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ryan's Gift List</title>
-  </head>
-  <body>
-    <h1>Gift List</h1>
-    <ul>
-      {% for gift in collections.gifts %}
-      <li>
-        <a href="{{ gift.data.page.url }}"
-          >{{ gift.data.title }}: ${{ gift.data.cost }}</a
-        >
-      </li>
-      {% endfor %}
-    </ul>
-  </body>
-</html>
+---
+layout: base.html
+---
+
+<h1>Gift List 2019</h1>
+<p>Simple gift list ideas for Ryan Morton</p>
+<ul>
+  {% for gift in collections.gifts %}
+  <li>
+    <a href="{{ gift.data.page.url }}"
+      >{{ gift.data.title }}:
+      <span class="price">${{ gift.data.cost }}</span></a
+    >
+  </li>
+  {% endfor %}
+</ul>
