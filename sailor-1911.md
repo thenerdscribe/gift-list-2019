@@ -6,4 +6,4 @@ cost: 312
 link: https://nibsmith.com/product/sailor-1911-large-fountain-pen-stormy-sea-rhodium-trim/
 ---
 
-I love this pen!
+I love this pen! Medium bib or larger please.
